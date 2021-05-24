@@ -5,7 +5,7 @@ class Client:
         self.money = money
 
     def get_client(self):
-        return print(f'Клиент "{self.name}" - Баланс:{self.money} руб.')
+        print(f'Клиент "{self.name}" - Баланс:{self.money} руб.')
 
 
 clitnt1 = Client('Иван Петров', 50)
